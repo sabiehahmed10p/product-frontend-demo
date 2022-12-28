@@ -7,8 +7,8 @@ export default function LoginPage(): ReactElement {
 	return (
 		<>
 			<Head title='Product Frontend Login' />
-			<div class="bg-[url('/203736e49602cb770887.svg')]">
-				<LoginForm ></LoginForm>
+			<div className="bg-[url('/203736e49602cb770887.svg')]">
+				<LoginForm />
 			</div>
 		</>
 	)
