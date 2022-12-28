@@ -11,7 +11,7 @@ export default function LoginForm(): ReactElement {
 				<form className='mt-6'>
 					<div className='mb-2'>
 						<label
-							for='email'
+							htmlFor='email'
 							className='block text-sm font-semibold text-gray-800'
 						>
 							Email Address
@@ -23,7 +23,7 @@ export default function LoginForm(): ReactElement {
 					</div>
 					<div className='mb-2'>
 						<label
-							for='password'
+							htmlFor='password'
 							className='block text-sm font-semibold text-gray-800'
 						>
 							Password
