@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="219e88d4-57cd-4e3d-aa0b-36768cedb0c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/CODEOWNERS" beforeDir="false" afterPath="$PROJECT_DIR$/.github/CODEOWNERS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672126816931</updated>
       <workItem from="1672126819458" duration="3282000" />
-      <workItem from="1672206899001" duration="548000" />
+      <workItem from="1672206899001" duration="771000" />
     </task>
     <servers />
   </component>
