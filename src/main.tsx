@@ -3,6 +3,9 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { registerSW } from 'virtual:pwa-register'
+import { store } from './store'
+import { Provider } from 'react-redux'
+
 import './index.css'
 
 registerSW()
@@ -23,7 +26,9 @@ if (container) {
 	root.render(
 		<StrictMode>
 			<QueryClientProvider client={queryClient}>
-				<App />
+				<Provider store={store}>
+					<App />
+				</Provider>
 			</QueryClientProvider>
 		</StrictMode>
 	)
