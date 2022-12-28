@@ -23,9 +23,11 @@
 		"validate": "run-p lint test:ci test:e2e:headless"
 	},
 	"dependencies": {
+		"@reduxjs/toolkit": "^1.9.1",
 		"@tanstack/react-query": "4.13.5",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
+		"react-redux": "^8.0.5",
 		"react-router-dom": "6.3.0"
 	},
 	"devDependencies": {
