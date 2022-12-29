@@ -47,10 +47,15 @@ export default function DashboardPage(): ReactElement {
 	}
 
 	return (
-		<DataGrid<IGridData>
-			rowData={formattedData}
-			columnDefs={columnDefinition}
-			autoGroupColumnDef={autoGroupColumnDefinition}
-		/>
+		<div className='relative flex min-h-screen flex-col justify-center overflow-hidden'>
+			<div className='m-auto w-full overflow-hidden rounded-md bg-white p-12'>
+				<h1 className='text-center text-2xl font-semibold'>Dashboard</h1>
+				<DataGrid<IGridData>
+					rowData={formattedData}
+					columnDefs={columnDefinition}
+					autoGroupColumnDef={autoGroupColumnDefinition}
+				/>
+			</div>
+		</div>
 	)
 }
