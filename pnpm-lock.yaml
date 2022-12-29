@@ -19,7 +19,11 @@ specifiers:
   '@typescript-eslint/parser': 5.43.0
   '@vitejs/plugin-react': 2.2.0
   '@vitest/coverage-istanbul': 0.25.2
+  ag-grid-community: ^28.2.1
+  ag-grid-enterprise: ^28.2.1
+  ag-grid-react: ^28.2.1
   autoprefixer: 10.4.13
+  axios: ^1.2.1
   commitizen: 4.2.5
   css-mediaquery: 0.1.2
   cypress: 10.11.0
@@ -66,6 +70,10 @@ specifiers:
 dependencies:
   '@reduxjs/toolkit': 1.9.1_k4ae6lp43ej6mezo3ztvx6pykq
   '@tanstack/react-query': 4.13.5_biqbaboplfbrettd7655fr4n2y
+  ag-grid-community: 28.2.1
+  ag-grid-enterprise: 28.2.1
+  ag-grid-react: 28.2.1_kap55pawlsqblyi2mqg5b5ge64
+  axios: 1.2.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-redux: 8.0.5_gqczyrwmhlwpr6z64d3xh3wv54
@@ -3093,6 +3101,36 @@ packages:
     hasBin: true
     dev: true
 
+  /ag-grid-community/28.2.1:
+    resolution:
+      {
+        integrity: sha512-DMZh/xD/FqYP17qJ1M92PolTYe+hrKuEaf+A4h13O6qn2x/xZQrTRGW5DgnQLR/uLMe1XXZQPKR3UKgAlKo69A==
+      }
+    dev: false
+
+  /ag-grid-enterprise/28.2.1:
+    resolution:
+      {
+        integrity: sha512-FIqIiaMMO9m8eqfu64rZ7dOK8vQFqD+Dp9CTpSfjMtyUp4IoRE36c+mUpUGLX/bIix9LltpaUmr185nFM1Alrw==
+      }
+    dev: false
+
+  /ag-grid-react/28.2.1_kap55pawlsqblyi2mqg5b5ge64:
+    resolution:
+      {
+        integrity: sha512-3vbw+B77uWwAyiOJxQA5U+PQFRCCccUx7L5PIwrnA4Y7c1yAu8sB65hAZdBc9kuW26iltwv7asq0UzP7UAQUpg==
+      }
+    peerDependencies:
+      ag-grid-community: ~28.2.1
+      react: ^16.3.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.3.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      ag-grid-community: 28.2.1
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
   /agent-base/6.0.2:
     resolution:
       {
@@ -3445,6 +3483,19 @@ packages:
     transitivePeerDependencies:
       - debug
     dev: true
+
+  /axios/1.2.1:
+    resolution:
+      {
+        integrity: sha512-I88cFiGu9ryt/tfVEi4kX2SITsvDddTajXTOFmt2uK1ZVA8LytjtdeyefdQWEf5PU8w+4SSJDoYnggflB5tW4A==
+      }
+    dependencies:
+      follow-redirects: 1.15.1_debug@4.3.2
+      form-data: 4.0.0
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+    dev: false
 
   /axobject-query/2.2.0:
     resolution:
@@ -3973,7 +4024,6 @@ packages:
     engines: { node: '>= 0.8' }
     dependencies:
       delayed-stream: 1.0.0
-    dev: true
 
   /commander/2.20.3:
     resolution:
@@ -4398,7 +4448,6 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
-    dev: true
 
   /debug/4.3.4:
     resolution:
@@ -5881,7 +5930,6 @@ packages:
         optional: true
     dependencies:
       debug: 4.3.2
-    dev: true
 
   /for-each/0.3.3:
     resolution:
@@ -5921,7 +5969,6 @@ packages:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       mime-types: 2.1.35
-    dev: true
 
   /fraction.js/4.2.0:
     resolution:
@@ -7809,7 +7856,6 @@ packages:
     engines: { node: '>= 0.6' }
     dependencies:
       mime-db: 1.52.0
-    dev: true
 
   /mimic-fn/2.1.0:
     resolution:
@@ -8748,7 +8794,6 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
-    dev: true
 
   /proxy-from-env/1.0.0:
     resolution:
@@ -8756,6 +8801,13 @@ packages:
         integrity: sha512-F2JHgJQ1iqwnHDcQjVBsq3n/uoaFL+iPW/eAeL7kVxy/2RrWaN4WroKjjvbsoRtv0ftelNyC01bjRhn/bhcf4A==
       }
     dev: true
+
+  /proxy-from-env/1.1.0:
+    resolution:
+      {
+        integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
+      }
+    dev: false
 
   /ps-tree/1.2.0:
     resolution:
