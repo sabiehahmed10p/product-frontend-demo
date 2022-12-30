@@ -106,5 +106,8 @@
 			"eslint --cache --fix",
 			"vitest related --run --coverage=false"
 		]
+	},
+	"msw": {
+		"workerDirectory": "public"
 	}
 }
