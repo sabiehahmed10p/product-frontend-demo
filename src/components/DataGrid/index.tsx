@@ -4,13 +4,13 @@ import 'ag-grid-enterprise'
 import type { AgReactUiProps } from 'ag-grid-react'
 import { AgGridReact } from 'ag-grid-react'
 import type React from 'react'
-import DEFAULT_GRID_CONFIG, {
-	DEFAULT_GRID_HEIGHT,
-	DEFAULT_GRID_WIDTH
-} from './defaults'
+import DEFAULT_GRID_CONFIG, { DEFAULT_GRID_WIDTH } from './defaults'
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-interface DataGridProps<RowData> extends AgReactUiProps<RowData> {}
+import './grid.scss'
+
+interface DataGridProps<RowData> extends AgReactUiProps<RowData> {
+	gridTitle: string
+}
 
 function DataGrid<RowData>(props: DataGridProps<RowData>): React.ReactElement {
 	const {
@@ -20,15 +20,15 @@ function DataGrid<RowData>(props: DataGridProps<RowData>): React.ReactElement {
 		columnDefs,
 		autoGroupColumnDef,
 		treeData,
-		getDataPath
+		getDataPath,
+		gridTitle
 	} = props
 
 	return (
-		<div
-			className='ag-theme-alpine'
-			style={{ height: DEFAULT_GRID_HEIGHT, width: DEFAULT_GRID_WIDTH }}
-		>
+		<div className='ag-theme-finmark' style={{ width: DEFAULT_GRID_WIDTH }}>
+			<h6 className='grid-table-subtitle'>{gridTitle}</h6>
 			<AgGridReact<RowData>
+				domLayout='autoHeight'
 				animateRows={animateRows ?? DEFAULT_GRID_CONFIG.animateRows}
 				defaultColDef={defaultColDef ?? DEFAULT_GRID_CONFIG.defaultColDef}
 				rowData={rowData}
@@ -36,6 +36,9 @@ function DataGrid<RowData>(props: DataGridProps<RowData>): React.ReactElement {
 				autoGroupColumnDef={autoGroupColumnDef}
 				treeData={treeData}
 				getDataPath={getDataPath}
+				suppressRowHoverHighlight={
+					DEFAULT_GRID_CONFIG.suppressRowHoverHighlight
+				}
 			/>
 		</div>
 	)

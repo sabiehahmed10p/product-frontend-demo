@@ -6,10 +6,11 @@ const DEFAULT_FLEX = 1
 
 const DEFAULT_GRID_CONFIG: AgReactUiProps = {
 	animateRows: true,
+	suppressRowHoverHighlight: true,
 	defaultColDef: {
 		flex: DEFAULT_FLEX,
-		sortable: true,
-		resizable: true,
+		sortable: false,
+		resizable: false,
 		filter: true
 	}
 }
