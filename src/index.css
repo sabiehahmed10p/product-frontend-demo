@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.app {
+	background-color: #f7f9ff;
+}
+
 @layer base {
 	@font-face {
 		font-family: Inter;

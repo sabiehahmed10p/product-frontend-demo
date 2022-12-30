@@ -1,0 +1,32 @@
+.the-page-header {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1.5rem;
+	width: 100%;
+}
+
+.the-page-header-title {
+	flex: 0;
+	margin: 0 auto 0 0;
+	white-space: nowrap;
+	font-weight: 700;
+	letter-spacing: -0.03em;
+	font-size: 2.5rem;
+}
+
+.the-page-header-buttons {
+	align-items: center;
+	display: flex;
+	margin-left: auto;
+	margin-top: 1rem;
+}
+
+.the-page-header-ctrl-segment {
+	display: flex;
+}
+
+.the-page-header-ctrl-segment:not(:first-child) {
+	border-left: 1px solid #ccdaff;
+	margin-left: 1rem;
+}

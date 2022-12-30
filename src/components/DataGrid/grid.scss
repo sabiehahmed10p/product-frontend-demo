@@ -1,0 +1,43 @@
+@use '../../../node_modules/ag-grid-community/styles' as ag;
+
+.grid-table-subtitle {
+	border-bottom: 1px solid #ccdaff;
+	font-size: 0.875rem;
+	padding-bottom: 1rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+@include ag.grid-styles(
+	(
+		theme: finmark,
+		extend-theme: alpine,
+		--ag-header-column-separator-display: 'none'
+	)
+);
+
+.ag-theme-finmark {
+	.ag-root-wrapper {
+		border: none;
+	}
+	.ag-header {
+		background-color: #ffffff;
+		border: none;
+		border-bottom: 1px solid #ccdaff;
+	}
+	.ag-header-cell {
+		border: none;
+	}
+	.ag-header-cell-resize {
+		display: none;
+	}
+	.ag-row {
+		border: none;
+	}
+	.ag-row-even {
+		background-color: #f7f9ff;
+	}
+	.ag-row-odd {
+		background-color: #ffffff;
+	}
+}

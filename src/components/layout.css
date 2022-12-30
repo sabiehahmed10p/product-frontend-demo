@@ -1,0 +1,32 @@
+.layout {
+	margin-left: 129px;
+	padding: 3rem 0 9rem;
+	width: calc(100vw - 193px);
+}
+
+.layout-page {
+	flex: 1;
+	width: 100%;
+}
+
+.layout-panel {
+	background-color: #fffffff7;
+	border: 1px solid #ccdaff;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px #628ff81c;
+	font-size: 0.875rem;
+	padding: 2.5rem 1.5rem;
+	transition: border-color 0.2s;
+}
+
+.layout-panel + .layout-panel {
+	margin-top: 2rem;
+}
+
+.layout-panel-subtitle {
+	border-bottom: 1px solid #ccdaff;
+	font-size: 0.875rem;
+	padding-bottom: 1rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
