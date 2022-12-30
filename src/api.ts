@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const BASE_URL = 'https://614c99f03c438c00179faa84.mockapi.io'
+export const BASE_URL = `${window.location.origin}/api`
 
 const Api = axios.create({
 	baseURL: BASE_URL
