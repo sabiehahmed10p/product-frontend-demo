@@ -26,7 +26,7 @@ function DataGrid<RowData>(props: DataGridProps<RowData>): React.ReactElement {
 
 	return (
 		<div className='ag-theme-finmark' style={{ width: DEFAULT_GRID_WIDTH }}>
-			<h6 className='grid-table-subtitle'>{gridTitle}</h6>
+			<h6 className='grid-table-subtitle text-gray-900'>{gridTitle}</h6>
 			<AgGridReact<RowData>
 				domLayout='autoHeight'
 				animateRows={animateRows ?? DEFAULT_GRID_CONFIG.animateRows}
