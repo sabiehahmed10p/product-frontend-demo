@@ -7,7 +7,7 @@ interface Properties {
 export default function Header({ title }: Properties): ReactElement {
 	return (
 		<header className='the-page-header'>
-			<h1 className='the-page-header-title'>{title}</h1>
+			<h1 className='the-page-header-title text-gray-900'>{title}</h1>
 		</header>
 	)
 }
