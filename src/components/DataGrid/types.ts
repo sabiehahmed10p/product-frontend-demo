@@ -1,5 +1,12 @@
-export interface IGridData {
-	fruit: string[]
-	nutrition: string
-	amount: string
+export interface IActualsGridData {
+	hierarchy: string[]
+	months: IMonthFormatted[]
+	title: string
+	id: string
+	unit: string
+}
+
+export interface IMonthFormatted {
+	date: string
+	value?: number
 }

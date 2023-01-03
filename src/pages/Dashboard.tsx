@@ -1,45 +1,50 @@
 import { useQuery } from '@tanstack/react-query'
 import type { AgGridColumnProps } from 'ag-grid-react'
-import getFruits from 'api/getFruits'
+import getActuals from 'api/getActuals'
 import DataGrid from 'components/DataGrid'
-import type { IGridData } from 'components/DataGrid/types'
-import formatDataForGrid from 'components/DataGrid/utils'
+import { DEFAULT_MAIN_COLUMN_WIDTH } from 'components/DataGrid/defaults'
+import type { IActualsGridData } from 'components/DataGrid/types'
+import {
+	formatActualsDataForGrid,
+	generateMonthColumns
+} from 'components/DataGrid/utils'
 import Layout from 'components/Layout'
 import LoadingOrError from 'components/LoadingOrError'
 import type { ReactElement } from 'react'
-import { useMemo } from 'react'
-import type { IFruit } from 'types'
+import { useCallback, useMemo } from 'react'
 
 export default function DashboardPage(): ReactElement {
-	const { isLoading, isError, error, data } = useQuery(['fruits'], getFruits)
+	const { isLoading, isError, error, data } = useQuery(['actuals'], getActuals)
 
-	const formattedData = useMemo(
-		() => formatDataForGrid(data as IFruit[]),
-		[data]
-	)
+	const formattedData = useMemo(() => formatActualsDataForGrid(data), [data])
 
-	const columnDefinition = useMemo(
-		() =>
-			[
-				{ field: 'fruit', rowGroup: true, hide: true },
-				{
-					field: 'nutrition'
-				},
-				{
-					field: 'amount'
-				}
-			] as AgGridColumnProps[],
-		[]
-	)
+	const columnDefinition = useMemo(() => {
+		const columns: AgGridColumnProps[] = [
+			{ field: 'hierarchy', rowGroup: true, hide: true }
+		]
+		if (formattedData.length > 0) {
+			const monthlyColumns = generateMonthColumns(formattedData[0].months)
+			return [...columns, ...monthlyColumns]
+		}
+		return columns
+	}, [formattedData])
 
 	const autoGroupColumnDefinition = useMemo(
 		() =>
 			({
-				headerName: 'Fruit',
+				headerName: 'Combined Actuals',
+				minWidth: DEFAULT_MAIN_COLUMN_WIDTH,
+				pinned: 'left',
+				field: 'title',
 				cellRendererParams: {
 					suppressCount: true
 				}
 			} as AgGridColumnProps),
+		[]
+	)
+
+	const getDataPath = useCallback(
+		(item: IActualsGridData): string[] => item.hierarchy,
 		[]
 	)
 
@@ -49,11 +54,13 @@ export default function DashboardPage(): ReactElement {
 
 	return (
 		<Layout pageTitle='Dashboard'>
-			<DataGrid<IGridData>
-				gridTitle='Fruit Nutritients'
+			<DataGrid<IActualsGridData>
+				gridTitle='Actuals'
 				rowData={formattedData}
 				columnDefs={columnDefinition}
 				autoGroupColumnDef={autoGroupColumnDefinition}
+				getDataPath={getDataPath}
+				treeData
 			/>
 		</Layout>
 	)
