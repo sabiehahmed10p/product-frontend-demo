@@ -6,5 +6,6 @@ interface ImportMetaEnvironment {
 }
 
 interface ImportMeta {
+	/* eslint-disable unicorn/prevent-abbreviations */
 	readonly env: ImportMetaEnvironment
 }
