@@ -2,6 +2,9 @@ import type { AgReactUiProps } from 'ag-grid-react'
 
 export const DEFAULT_GRID_HEIGHT = 600
 export const DEFAULT_GRID_WIDTH = '100%'
+export const DEFAULT_MONTHLY_COLUMN_WIDTH = 113
+export const DEFAULT_MAIN_COLUMN_WIDTH = 300
+
 const DEFAULT_FLEX = 1
 
 const DEFAULT_GRID_CONFIG: AgReactUiProps = {
@@ -11,7 +14,8 @@ const DEFAULT_GRID_CONFIG: AgReactUiProps = {
 		flex: DEFAULT_FLEX,
 		sortable: false,
 		resizable: false,
-		filter: true
+		filter: true,
+		suppressMovable: true
 	}
 }
 

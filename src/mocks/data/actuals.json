@@ -1,0 +1,1771 @@
+{
+	"data": {
+		"children": [
+			{
+				"id": "TotalRevenue",
+				"key": [],
+				"family": "REVENUE",
+				"title": "Total Revenue",
+				"actualParentEntity": null,
+				"unit": "Currency",
+				"months": [
+					{
+						"date": "2022-12",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 20000.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-01",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 23000.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-02",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 26450.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-03",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 30418.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-04",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 34980.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-05",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 40227.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-06",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 46261.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-07",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 53200.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-08",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 61180.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-09",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 70358.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-10",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 80911.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-11",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 93048.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-12",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 107005.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2024-01",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 123056.0,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					}
+				],
+				"children": [
+					{
+						"id": "AdjustmentsToRevenue",
+						"key": [],
+						"family": "REVENUE",
+						"title": "Adjustments To Revenue",
+						"actualParentEntity": null,
+						"unit": "Currency",
+						"months": [
+							{
+								"date": "2022-12",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-01",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-02",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-03",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-04",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-05",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-06",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-07",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-08",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-09",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-10",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-11",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-12",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2024-01",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": null,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							}
+						],
+						"children": null,
+						"style": null
+					},
+					{
+						"id": "REVENUE-8918",
+						"key": [
+							{ "scenarioId": 5632, "key": "8918", "attributionType": 2 }
+						],
+						"family": "REVENUE",
+						"title": "revenue only",
+						"actualParentEntity": null,
+						"unit": "Currency",
+						"months": [
+							{
+								"date": "2022-12",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 20000,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-01",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 23000,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-02",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 26450,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-03",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 30418,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-04",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 34980,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-05",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 40227,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-06",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 46261,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-07",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 53200,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-08",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 61180,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-09",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 70358,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-10",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 80911,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-11",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 93048,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2023-12",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 107005,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							},
+							{
+								"date": "2024-01",
+								"value": [
+									{
+										"scenarioId": 5632,
+										"value": 123056,
+										"type": null,
+										"displayFormula": null,
+										"customVariableId": null,
+										"faulted": false,
+										"style": null
+									}
+								],
+								"details": null,
+								"variance": null,
+								"endDate": null
+							}
+						],
+						"children": [
+							{
+								"id": "REVENUE-8918-RevenueOnly",
+								"key": [
+									{ "scenarioId": 5632, "key": "8918", "attributionType": 2 }
+								],
+								"family": "REVENUE",
+								"title": "Revenue Only",
+								"actualParentEntity": null,
+								"unit": "Currency",
+								"months": [
+									{
+										"date": "2022-12",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 20000,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-01",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 23000,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-02",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 26450,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-03",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 30418,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-04",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 34980,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-05",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 40227,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-06",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 46261,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-07",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 53200,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-08",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 61180,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-09",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 70358,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-10",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 80911,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-11",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 93048,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2023-12",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 107005,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									},
+									{
+										"date": "2024-01",
+										"value": [
+											{
+												"scenarioId": 5632,
+												"value": 123056,
+												"type": null,
+												"displayFormula": null,
+												"customVariableId": null,
+												"faulted": false,
+												"style": null
+											}
+										],
+										"details": null,
+										"variance": null,
+										"endDate": null
+									}
+								],
+								"children": [
+									{
+										"id": "REVENUE-8918-RevenueOnly-4",
+										"key": [
+											{ "scenarioId": 5632, "key": "4", "attributionType": 2 }
+										],
+										"family": "REVENUE",
+										"title": "OTHER_REVENUE",
+										"actualParentEntity": {
+											"revenueStreamPricingPlan": null,
+											"expenseGroup": null,
+											"employee": null
+										},
+										"unit": "Currency",
+										"months": [
+											{
+												"date": "2022-12",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 20000,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-01",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 23000,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-02",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 26450,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-03",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 30418,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-04",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 34980,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-05",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 40227,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-06",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 46261,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-07",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 53200,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-08",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 61180,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-09",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 70358,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-10",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 80911,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-11",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 93048,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2023-12",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 107005,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											},
+											{
+												"date": "2024-01",
+												"value": [
+													{
+														"scenarioId": 5632,
+														"value": 123056,
+														"type": "SYSTEM_GENERATED",
+														"displayFormula": null,
+														"customVariableId": null,
+														"faulted": false,
+														"style": null
+													}
+												],
+												"details": null,
+												"variance": null,
+												"endDate": null
+											}
+										],
+										"children": null,
+										"style": null
+									}
+								],
+								"style": null
+							}
+						],
+						"style": null
+					}
+				],
+				"style": null
+			},
+			{
+				"id": "AdjustmentstoPayroll",
+				"key": [],
+				"family": "PAYROLL",
+				"title": "Adjustments to Payroll",
+				"actualParentEntity": null,
+				"unit": "Currency",
+				"months": [
+					{
+						"date": "2022-12",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-01",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-02",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-03",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-04",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-05",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-06",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-07",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-08",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-09",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-10",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-11",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-12",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2024-01",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": null,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					}
+				],
+				"children": null,
+				"style": null
+			},
+			{
+				"id": "NetIncome",
+				"key": [],
+				"family": "REVENUE",
+				"title": "Net Income",
+				"actualParentEntity": null,
+				"unit": "Currency",
+				"months": [
+					{
+						"date": "2022-12",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 20000,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-01",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 23000,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-02",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 26450,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-03",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 30418,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-04",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 34980,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-05",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 40227,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-06",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 46261,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-07",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 53200,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-08",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 61180,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-09",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 70358,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-10",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 80911,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-11",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 93048,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2023-12",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 107005,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					},
+					{
+						"date": "2024-01",
+						"value": [
+							{
+								"scenarioId": 5632,
+								"value": 123056,
+								"type": null,
+								"displayFormula": null,
+								"customVariableId": null,
+								"faulted": false,
+								"style": null
+							}
+						],
+						"details": null,
+						"variance": null,
+						"endDate": null
+					}
+				],
+				"children": null,
+				"style": null
+			}
+		]
+	},
+	"error": null,
+	"success": true
+}
