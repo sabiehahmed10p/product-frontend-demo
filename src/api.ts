@@ -1,6 +1,10 @@
 import axios from 'axios'
 
-export const BASE_URL = `${window.location.origin}/api`
+export const BASE_URL = `${
+	process.env.NODE_ENV === 'development'
+		? window.location.origin
+		: import.meta.env.VITE_ACTUALS_API_URL
+}/api`
 
 const Api = axios.create({
 	baseURL: BASE_URL

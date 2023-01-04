@@ -9,3 +9,5 @@ coverage
 .stylelintcache
 cypress/videos
 .idea
+src/environments/.env
+src/environments/*.local
