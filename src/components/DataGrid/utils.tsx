@@ -2,7 +2,12 @@ import type { ValueGetterParams } from 'ag-grid-community'
 import type { AgGridColumnProps } from 'ag-grid-react'
 import type { IActual } from 'types'
 import { DEFAULT_MONTHLY_COLUMN_WIDTH } from './defaults'
-import type { IActualsGridData, IMonthFormatted } from './types'
+import monthlyHeaderRenderer from './renderers/monthlyHeaderRenderer'
+import type {
+	IActualsGridData,
+	IMonthFormatted,
+	IMonthlyCellRendererParameters
+} from './types'
 
 export function formatActualsDataForGrid(
 	data?: IActual[],
@@ -49,7 +54,7 @@ export function formatActualsDataForGrid(
 export function generateMonthColumns(
 	months: IMonthFormatted[]
 ): AgGridColumnProps[] {
-	return months.map(month => ({
+	return months.map((month, monthIndex) => ({
 		field: month.date,
 		title: month.date,
 		minWidth: DEFAULT_MONTHLY_COLUMN_WIDTH,
@@ -58,6 +63,12 @@ export function generateMonthColumns(
 				item => item.date === api.colDef.field
 			)?.value
 			return value ? `$${value}` : '--'
-		}
+		},
+
+		headerComponent: monthlyHeaderRenderer,
+		headerComponentParams: {
+			date: month.date,
+			isForecast: monthIndex !== 0
+		} as IMonthlyCellRendererParameters
 	}))
 }

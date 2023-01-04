@@ -16,6 +16,29 @@
 	)
 );
 
+.month-column {
+	text-align: right;
+	padding: 1rem;
+	color: #9595a1;
+	white-space: nowrap;
+	font-size: 0.875rem;
+	font-weight: 600;
+
+	.month-column-date {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.month-column-text {
+		font-size: 0.75rem;
+		font-weight: 500;
+		text-align: right;
+	}
+}
+.month-column-forecast {
+	color: #316bf5;
+}
+
 .ag-theme-finmark {
 	.ag-root-wrapper {
 		border: none;
@@ -33,6 +56,7 @@
 	}
 	.ag-row {
 		border: none;
+		text-align: center;
 	}
 	.ag-row-even {
 		background-color: #f7f9ff;
