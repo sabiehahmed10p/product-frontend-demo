@@ -7,6 +7,8 @@ export const store = configureStore({
 		// add reducers here..
 		[actualsAPI.reducerPath]: actualsAPI.reducer
 	},
+	// eslint-disable-next-line @typescript-eslint/no-magic-numbers
+	devTools: { trace: true, traceLimit: 25 },
 	middleware: getDefaultMiddleware =>
 		// eslint-disable-next-line unicorn/prefer-spread
 		getDefaultMiddleware().concat(actualsAPI.middleware)
