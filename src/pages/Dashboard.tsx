@@ -23,7 +23,9 @@ export default function DashboardPage(): ReactElement {
 			{ field: 'hierarchy', rowGroup: true, hide: true }
 		]
 		if (formattedData.length > 0) {
-			const monthlyColumns = generateMonthColumns(formattedData[0].months)
+			const monthlyColumns = generateMonthColumns(formattedData[0].months).map(
+				column => ({ ...column, floatingFilter: true })
+			)
 			return [...columns, ...monthlyColumns]
 		}
 		return columns
@@ -36,6 +38,7 @@ export default function DashboardPage(): ReactElement {
 				minWidth: DEFAULT_MAIN_COLUMN_WIDTH,
 				pinned: 'left',
 				field: 'title',
+				floatingFilter: true,
 				cellRendererParams: {
 					suppressCount: true
 				}

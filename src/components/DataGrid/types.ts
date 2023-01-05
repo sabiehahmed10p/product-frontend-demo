@@ -10,3 +10,8 @@ export interface IMonthFormatted {
 	date: string
 	value?: number
 }
+
+export interface IMonthlyCellRendererParameters {
+	date: string
+	isForecast: boolean
+}
