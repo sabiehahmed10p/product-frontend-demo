@@ -4,7 +4,6 @@ import { lazy, Suspense, useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 const LoginPage = lazy(async () => import('pages/LoginPage'))
-const Details = lazy(async () => import('pages/Details'))
 const Dashboard = lazy(async () => import('pages/Dashboard'))
 
 export default function App(): ReactElement {
@@ -29,7 +28,6 @@ export default function App(): ReactElement {
 					<Routes>
 						<Route path='/' element={<LoginPage />} />
 						<Route path='/dashboard' element={<Dashboard />} />
-						<Route path=':fruitName' element={<Details />} />
 					</Routes>
 				</Suspense>
 			</BrowserRouter>
