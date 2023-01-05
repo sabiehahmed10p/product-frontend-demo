@@ -9,7 +9,7 @@ export const actualsAPI = createApi({
 	reducerPath: 'actuals',
 	endpoints: builder => ({
 		getActuals: builder.query<IActual[], undefined>({
-			query: () => '/actuals',
+			query: () => '/actuals/1', // 1 is for demo purpose only due to limitation of mockapi.io, Temporary code
 			providesTags: ['ACTUALS'],
 			transformResponse: (response: IActualAPIResponse): IActual[] =>
 				response.data.children
