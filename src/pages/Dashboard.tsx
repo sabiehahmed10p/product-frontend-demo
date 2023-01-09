@@ -1,6 +1,5 @@
-import { useQuery } from '@tanstack/react-query'
 import type { AgGridColumnProps } from 'ag-grid-react'
-import getActuals from 'api/getActuals'
+import { useGetActualsQuery } from 'api/getActuals'
 import DataGrid from 'components/DataGrid'
 import { DEFAULT_MAIN_COLUMN_WIDTH } from 'components/DataGrid/defaults'
 import type { IActualsGridData } from 'components/DataGrid/types'
@@ -14,7 +13,7 @@ import type { ReactElement } from 'react'
 import { useCallback, useMemo } from 'react'
 
 export default function DashboardPage(): ReactElement {
-	const { isLoading, isError, error, data } = useQuery(['actuals'], getActuals)
+	const { isError, isLoading, data, error } = useGetActualsQuery(undefined, {})
 
 	const formattedData = useMemo(() => formatActualsDataForGrid(data), [data])
 

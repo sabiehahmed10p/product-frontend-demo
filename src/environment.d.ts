@@ -1,11 +1,10 @@
 /// <reference types="vite/client" />
-
-interface ImportMetaEnvironment {
+/* eslint-disable unicorn/prevent-abbreviations */
+interface ImportMetaEnv {
 	readonly VITE_API_URL: string
 	// more env variables...
 }
 
 interface ImportMeta {
-	/* eslint-disable unicorn/prevent-abbreviations */
-	readonly env: ImportMetaEnvironment
+	readonly env: ImportMetaEnv
 }
